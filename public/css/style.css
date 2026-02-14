@@ -1,0 +1,57 @@
+:root {
+  --slate-300-color: hsl(212, 45%, 89%);
+  --slate-500-color: hsl(216, 15%, 48%);
+  --slate-900-color: hsl(218, 44%, 22%);
+  --white-color: hsl(0, 0%, 100%);
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-500: 2.5rem;
+  --letter-spacing-0: 0px;
+  --letter-spacing-02: 0.2px;
+  --line-height-120: 120%;
+  --line-height-140: 140%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: grid;
+  place-items: center; /*Aligne horizontalement et verticalement (uniquemnet pour display: grid) */
+  min-width: 320px; /* Sécurité pour très petit écran */
+  margin-inline: auto;
+  background: var(--slate-300-color);
+}
+
+main {
+  background: var(--white-color);
+  max-width: 320px;
+  padding: var(--spacing-200);
+  border-radius: 10px;
+}
+
+main picture {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.color-slate-500 {
+  color: var(--slate-500-color);
+}
+
+.color-slate-900 {
+  color: var(--slate-900-color);
+}
+
+picture {
+  margin-block: 0 var(--spacing-300);
+}
+
+main > section {
+  text-align: center;
+}
+
+section > div {
+  margin-block: 0 var(--spacing-200);
+}
