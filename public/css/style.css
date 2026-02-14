@@ -37,11 +37,11 @@ main img {
   margin-block: 0 var(--spacing-300);
 }
 
-main > figure > figcaption {
+main {
   text-align: center;
 }
 
-figcaption > h1 {
+figcaption {
   margin-block: 0 var(--spacing-200);
 }
 
