@@ -31,20 +31,9 @@ main {
   border-radius: 10px;
 }
 
-main picture {
+main img {
   border-radius: 10px;
   overflow: hidden;
-}
-
-.color-slate-500 {
-  color: var(--slate-500-color);
-}
-
-.color-slate-900 {
-  color: var(--slate-900-color);
-}
-
-picture {
   margin-block: 0 var(--spacing-300);
 }
 
@@ -54,4 +43,12 @@ main > section {
 
 section > h1 {
   margin-block: 0 var(--spacing-200);
+}
+
+.color-slate-500 {
+  color: var(--slate-500-color);
+}
+
+.color-slate-900 {
+  color: var(--slate-900-color);
 }
